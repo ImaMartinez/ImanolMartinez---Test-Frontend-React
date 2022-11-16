@@ -1,0 +1,131 @@
+:root {
+  --grey: #535353;
+  --grey-2: #222222;
+  --grey-2-transp: #22222285;
+  --grey-dark: #1c1c1c;
+  --lilac: #333072;
+  --letters: #c5c5c5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--grey-dark);
+  color: var(--letters);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: linear-gradient(var(--grey), var(--grey-2));
+  padding: 3rem;
+  border-left: 0.5rem solid var(--lilac);
+}
+
+#logo {
+  height: 5em;
+}
+
+.profile {
+  padding: 1em;
+}
+
+.profile h5 {
+  color: white;
+  font-weight: bold;
+}
+
+.profile h2 {
+  font-size: 2em;
+  color: white;
+  padding: 10px 0;
+}
+
+.profile label {
+  font-size: 1em;
+  color: white;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.profile select {
+  font-size: 0.7em;
+  color: rgb(0, 0, 0);
+  padding: 5px 0;
+}
+
+.list {
+  border-left: 0.5rem solid var(--lilac);
+  padding: 3rem;
+}
+
+.list h3 {
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 2rem;
+  list-style: none;
+  padding-left: 50px;
+}
+.cards button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 0.2rem;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: auto;
+}
+
+li {
+  width: 10%;
+  border-radius: 3px;
+  padding: 1.5rem;
+  background-color: var(--grey-2);
+}
+
+li:hover {
+  background-color: var(--grey-2-transp);
+}
+
+li img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+li p {
+  font-size: 0.7em;
+  color: white;
+  padding: 5px 0;
+}
+
+/* .cards li i {
+  position: relative;
+  left: 90%;
+  cursor: pointer;
+}
+
+.cards li i:hover {
+  opacity: 0.7;
+}
+
+.cards li i:active {
+  opacity: 1;
+} */
+
+/* .favourite {
+  color: var(--lilac);
+} */
+
+footer {
+  padding: 1rem;
+  border-top: 2px solid black;
+  text-align: center;
+  cursor: pointer;
+}

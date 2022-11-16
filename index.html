@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" />
+    <title>NASA Gallery</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="profile">
+        <img
+          id="logo"
+          src="https://www.pngkey.com/png/full/481-4819402_nasa-logo-png-transparent-logo-nasa-hd-png.png"
+          alt="logo"
+        />
+        <h2>NASA Gallery</h2>
+        <!-- <h5>Your profile</h5>
+        <p>
+          <span id="pics-amount">0 pictures</span> in your gallery - Total
+          <span id="cant-favoritos">favourites 0</span>
+        </p> -->
+        <label for="rover">Rover</label>
+        <select id="rover">
+          <option hidden disabled selected value>Select rover</option>
+          <option value="curiosity">Curiosity</option>
+          <option value="opportunity">Opportunity</option>
+          <option value="spirit">Spirit</option>
+        </select>
+        <label for="camera">Camera</label>
+        <select id="camera">
+          <option hidden disabled selected value>Select camera</option>
+          <option value="fhaz">FHAZ</option>
+          <option value="rhaz">RHAZ</option>
+          <option value="mast">MAST</option>
+          <option value="chemcam">CHEMCAM</option>
+          <option value="mahli">MAHLI</option>
+          <option value="mardi">MARDI</option>
+          <option value="navcam">NAVCAM</option>
+          <option value="pancam">PANCAM</option>
+          <option value="minites">MINITES</option>
+        </select>
+        <label for="date">Earth Date</label>
+        <input type="date" id="date" />
+        <label for="sol">Sol</label>
+        <input type="number" id="sol" />
+      </div>
+    </header>
+
+    <div class="list">
+      <h3>Your selections:</h3>
+      <ul class="cards">
+        <!-- pictures -->
+      </ul>
+    </div>
+
+    <footer>
+      <!-- banner -->
+    </footer>
+  </body>
+
+  <script src="./app.js"></script>
+</html>
