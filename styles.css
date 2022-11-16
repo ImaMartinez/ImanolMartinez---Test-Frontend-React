@@ -104,28 +104,3 @@ li p {
   color: white;
   padding: 5px 0;
 }
-
-/* .cards li i {
-  position: relative;
-  left: 90%;
-  cursor: pointer;
-}
-
-.cards li i:hover {
-  opacity: 0.7;
-}
-
-.cards li i:active {
-  opacity: 1;
-} */
-
-/* .favourite {
-  color: var(--lilac);
-} */
-
-footer {
-  padding: 1rem;
-  border-top: 2px solid black;
-  text-align: center;
-  cursor: pointer;
-}
